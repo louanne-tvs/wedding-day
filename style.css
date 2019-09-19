@@ -48,6 +48,7 @@ li {
   top: 66px;
   background-color: #faf4f4;
   width: 100%;
+  display: none;
 }
 
 .submenu li {
