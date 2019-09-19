@@ -25,3 +25,19 @@ h2 {
   font-size: 40px;
   margin-top: 25px;
 }
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #f3e6e6;
+  padding: 25px 0;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 27px;
+  border-bottom: 2px solid black;
+}
