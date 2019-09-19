@@ -1,3 +1,27 @@
-p {
-  color: salmon;
+h1 {
+  color: #c15b78;
+  font-size: 47px;
+  margin-bottom: 25px;
+}
+
+.title {
+  font-family: 'Cookie', cursive;
+  font-weight: normal;
+  text-align: center;
+}
+
+.light-pink {
+  color: #f3e6e6;
+}
+
+#heart-icon {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #cdcdcd;
+  font-size: 40px;
+  margin-top: 25px;
 }
