@@ -1,11 +1,19 @@
 function showMenu() {
   const orgElement = document.getElementById('organization');
-  orgElement.style.display = 'block';
+  if (orgElement.style.display === 'none' || orgElement.style.display === '') {
+    orgElement.style.display = 'block';
+  } else {
+    orgElement.style.display = 'none';
+  }
 }
 
 function showAnotherMenu() {
   const vgElement = document.getElementById('vg');
-  vgElement.style.display = 'block';
+  if (vgElement.style.display === 'none' || vgElement.style.display === '') {
+    vgElement.style.display = 'block';
+  } else {
+    vgElement.style.display = 'none';
+  }
 }
 
 const org = document.getElementById('org');

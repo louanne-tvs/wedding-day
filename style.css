@@ -63,6 +63,11 @@ li {
 
 .submenu-container {
   position: relative;
+  cursor: pointer;
+}
+
+.submenu-container:hover {
+  background-color: #faf4f4;
 }
 
 #organization {
